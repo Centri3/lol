@@ -1,0 +1,11 @@
+[workspace]
+members = ["workspace2"]
+
+[workspace.dependencies]
+cargo = "0.70.1"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
